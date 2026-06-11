@@ -1,0 +1,35 @@
+{
+  "name": "email-agent",
+  "version": "1.0.0+codex.20260611044735",
+  "description": "Email Agent - AI-powered email processing. Read, summarize, draft, and send emails. Uses MCP server for direct IMAP/SMTP access.",
+  "author": {
+    "name": "Email Agent"
+  },
+  "keywords": [
+    "email",
+    "imap",
+    "smtp",
+    "qq",
+    "163",
+    "gmail",
+    "agent"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Email Agent",
+    "shortDescription": "Read, summarize, draft, and send emails via AI",
+    "longDescription": "Email Agent lets Codex read your inbox, generate daily summaries, draft replies, and send emails. Supports QQ Mail, 163, and Gmail.",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Read my emails",
+      "Summarize today's inbox",
+      "Reply to the first email"
+    ],
+    "brandColor": "#1A73E8",
+    "developerName": "Email Agent"
+  }
+}

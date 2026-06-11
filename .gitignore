@@ -1,0 +1,31 @@
+﻿# 敏感文件（不提交）
+.env
+user_preferences.json
+
+# 运行时生成
+summaries/
+chroma_db/
+_email_data/
+_email_commands/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

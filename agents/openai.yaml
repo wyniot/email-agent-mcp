@@ -1,0 +1,6 @@
+﻿display_name: "Email Agent"
+short_description: "AI-powered email auto-reply agent that reads, analyzes, drafts, and sends replies via IMAP/SMTP with LangChain or Gemini."
+default_prompt: "I am an email processing agent that can read inbox emails, analyze their content, draft replies, and send or save drafts. I use AI to understand context and remember past conversations."
+interface:
+  type: "agent"
+  capabilities: ["email", "ai", "automation"]

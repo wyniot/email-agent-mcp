@@ -1,0 +1,11 @@
+﻿{
+  "mcpServers": {
+    "email-agent": {
+      "command": "python",
+      "args": ["scripts/mcp_server.py"],
+      "env": {
+        "EMAIL_MCP_MOCK": "false"
+      }
+    }
+  }
+}
